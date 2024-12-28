@@ -77,7 +77,7 @@ export function Welcome() {
                 <p className="text-sm">My call sign is KI7UVW</p>
               </TooltipContent>
             </Tooltip>
-            , sailing, SCUBA diving, spearfishing, hunting, competitive
+            , sailing, SCUBA diving, spearfishing, hunting, archery, competitive
             shooting, and tinkering (to name just a few). If it’s outdoors or
             geeky, I’m probably into it.
           </p>
