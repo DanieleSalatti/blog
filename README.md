@@ -48,8 +48,8 @@ pnpm run build
 
 This template includes three Dockerfiles optimized for different package managers:
 
-- `Dockerfile` - for npm
-- `Dockerfile.pnpm` - for pnpm
+- `Dockerfile` - for pnpm
+- `Dockerfile.npm` - for pnpm
 - `Dockerfile.bun` - for bun
 
 To build and run using Docker:
