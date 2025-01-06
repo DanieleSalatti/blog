@@ -38,6 +38,8 @@ export function Welcome() {
     e.preventDefault();
     console.log("New subscriber detected:", email);
     setEmail("");
+    setShowEasterEgg(true);
+    setTimeout(() => setShowEasterEgg(false), 3000);
     alert("Subscription successful! Check the console for your confirmation.");
   }
 
@@ -53,7 +55,7 @@ export function Welcome() {
               <div className="w-3 h-3 rounded-full bg-yellow-500" />
               <div className="w-3 h-3 rounded-full bg-green-500" />
               <span className="ml-2 text-sm text-muted-foreground">
-                terminal@danielesalatti.com
+                me@danielesalatti.com
               </span>
             </div>
             <div className="font-mono">
@@ -188,6 +190,9 @@ export function Welcome() {
               git subscribe
             </Button>
           </form>
+          {showEasterEgg && (
+            <div className="mt-4 text-sm text-primary animate-bounce">🖖</div>
+          )}
         </div>
       </section>
 
